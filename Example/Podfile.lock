@@ -1,0 +1,36 @@
+PODS:
+  - ContentKit (1.6.5):
+    - Extensions
+    - RepresentationKit
+  - Extensions (1.17)
+  - RepresentationKit (1.1.4)
+
+DEPENDENCIES:
+  - ContentKit (from `../`)
+  - Extensions (from `https://github.com/averello/Extensions.git`)
+  - RepresentationKit (from `https://github.com/averello/RepresentationKit.git`)
+
+EXTERNAL SOURCES:
+  ContentKit:
+    :path: "../"
+  Extensions:
+    :git: https://github.com/averello/Extensions.git
+  RepresentationKit:
+    :git: https://github.com/averello/RepresentationKit.git
+
+CHECKOUT OPTIONS:
+  Extensions:
+    :commit: a2013d209d1596900df391641c8108bb29009022
+    :git: https://github.com/averello/Extensions.git
+  RepresentationKit:
+    :commit: 13a45a3a9e3e93def7662d6f7719e9fe4920f5d3
+    :git: https://github.com/averello/RepresentationKit.git
+
+SPEC CHECKSUMS:
+  ContentKit: 337772dce7541148e4253b18ef93e81c6231a066
+  Extensions: 7ba9c56c1529e8ea9056fd6038501af133632b8a
+  RepresentationKit: 1ae7749916ed014403db30f3d38204d7e000dbd1
+
+PODFILE CHECKSUM: 6ca5160ec81f041401f28d79231b6bf0d376968a
+
+COCOAPODS: 1.2.1
