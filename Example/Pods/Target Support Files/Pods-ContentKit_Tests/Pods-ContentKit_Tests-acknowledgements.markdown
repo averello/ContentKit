@@ -206,9 +206,9 @@ This application makes use of the following third party libraries:
    limitations under the License.
 
 
-## Extensions
+## Ents
 
-Extensions
+Ents
 
 Copyright (c) 2016-2017 Georges Boumis <developer.george.boumis@gmail.com>
 

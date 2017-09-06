@@ -4,6 +4,6 @@ target 'ContentKit_Tests' do
   pod 'ContentKit', :path => '../'
   
   pod 'RepresentationKit', :git => 'https://github.com/averello/RepresentationKit.git'
-  pod 'Extensions', :git => 'https://github.com/averello/Extensions.git'
+  pod 'Ents', :git => 'https://github.com/averello/Ents.git'
   
 end

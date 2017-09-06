@@ -225,7 +225,7 @@
 		</dict>
 		<dict>
 			<key>FooterText</key>
-			<string>Extensions
+			<string>Ents
 
 Copyright (c) 2016-2017 Georges Boumis &lt;developer.george.boumis@gmail.com&gt;
 
@@ -250,7 +250,7 @@ THE SOFTWARE.
 			<key>License</key>
 			<string>MIT</string>
 			<key>Title</key>
-			<string>Extensions</string>
+			<string>Ents</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>
