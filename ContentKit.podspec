@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ContentKit'
-  s.version          = '1.6.5'
+  s.version          = '1.7'
   s.summary          = 'Manage content.'
 
 # This description is used to generate tags and improve search results.
