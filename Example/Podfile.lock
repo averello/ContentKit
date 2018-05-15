@@ -1,7 +1,7 @@
 PODS:
-  - ContentKit (2.1):
+  - ContentKit (2.1.1):
     - RepresentationKit
-  - RepresentationKit (2.0)
+  - RepresentationKit (2.1)
 
 DEPENDENCIES:
   - ContentKit (from `../`)
@@ -15,12 +15,12 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   RepresentationKit:
-    :commit: fc44c427ad7ee9c41b52248fd237e63a7dc59406
+    :commit: 02089144a1328f734747939e462b56128ac1278e
     :git: https://github.com/averello/RepresentationKit.git
 
 SPEC CHECKSUMS:
-  ContentKit: 64fd7752f1aae05837abd41d45de06e36ac83f61
-  RepresentationKit: 13e70a642c8f6ff8ea045b76cbe7814d443e735d
+  ContentKit: a2fb7df876d4cfb14c1285f75785a2a085edbf61
+  RepresentationKit: d6ce6839901436f5e1d8053aa2e5fcbc8fa1f38b
 
 PODFILE CHECKSUM: 4786e3ca42aaec112f7b2f3b385d7bcc321559d9
 
