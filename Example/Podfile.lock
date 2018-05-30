@@ -1,5 +1,5 @@
 PODS:
-  - ContentKit (2.1.1):
+  - ContentKit (2.2):
     - RepresentationKit
   - RepresentationKit (2.1)
 
@@ -19,9 +19,9 @@ CHECKOUT OPTIONS:
     :git: https://github.com/averello/RepresentationKit.git
 
 SPEC CHECKSUMS:
-  ContentKit: a2fb7df876d4cfb14c1285f75785a2a085edbf61
+  ContentKit: 67d865ab519ea347cbf5e6012c2327c9eb1d4eb1
   RepresentationKit: d6ce6839901436f5e1d8053aa2e5fcbc8fa1f38b
 
 PODFILE CHECKSUM: 4786e3ca42aaec112f7b2f3b385d7bcc321559d9
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3
