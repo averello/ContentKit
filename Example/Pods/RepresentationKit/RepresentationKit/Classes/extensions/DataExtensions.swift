@@ -1,8 +1,8 @@
 //
-//  TextRepresentation.swift
-//  ContentKit
+//  DataExtensions.swift
+//  RepresentationKit
 //
-//  Created by Georges Boumis on 28/06/2016.
+//  Created by Georges Boumis on 19/11/2018.
 //
 //  Licensed to the Apache Software Foundation (ASF) under one
 //  or more contributor license agreements.  See the NOTICE file
@@ -24,17 +24,9 @@
 
 import Foundation
 
-#if canImport(RepresentationKit)
-import RepresentationKit
-
-/// A Text representation is a Text & a Representation.
-public protocol TextRepresentation: Representation, Text {}
-
-public extension DictionaryRepresentation {
-
-    /// Returns a Textual Representation.
-    public var textualRepresentation: TextRepresentation {
-        return self.represent(using: TextRepresentationBuilder()) as! TextRepresentation
+extension Data: Representable {
+    
+    public func represent(using representation: Representation) -> Representation {
+        return representation.with(key: "data", value: self)
     }
 }
-#endif
