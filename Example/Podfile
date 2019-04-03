@@ -1,8 +1,7 @@
 use_frameworks!
 target 'ContentKit_Tests' do
   platform :ios, '8.0'
+
   pod 'ContentKit', :path => '../'
-  
   pod 'RepresentationKit', :git => 'https://github.com/averello/RepresentationKit.git'
-  
 end
