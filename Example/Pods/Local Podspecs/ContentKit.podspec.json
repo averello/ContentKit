@@ -1,8 +1,8 @@
 {
   "name": "ContentKit",
-  "version": "2.5",
+  "version": "2.6",
   "summary": "Manage content.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "Manage content, either audible, visual or textual.",
   "homepage": "https://github.com/averello/ContentKit",
   "license": {
     "type": "Apache 2.0",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/averello/ContentKit.git",
-    "tag": "2.5"
+    "tag": "2.6"
   },
   "platforms": {
     "ios": "8.0"
