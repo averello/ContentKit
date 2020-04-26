@@ -27,34 +27,34 @@ import Foundation
 // default textual content key
 
 /// The key that is used by Text when is asked to be represented.
-public struct TextKey: LosslessStringConvertible, Hashable {
+internal struct TextKey: LosslessStringConvertible, Hashable {
     private let value: String = "content"
     
-    public init() {}
+    internal init() {}
         
-    public func hash(into hasher: inout Hasher) {
+    internal func hash(into hasher: inout Hasher) {
         self.value.hash(into: &hasher)
     }
     
     // Equatable
-    public static func == (_ lhs: TextKey, rhs: TextKey) -> Bool {
+    internal static func == (_ lhs: TextKey, rhs: TextKey) -> Bool {
         return (lhs.value == rhs.value)
     }
     
-    public static func != (_ lhs: TextKey, rhs: TextKey) -> Bool {
+    internal static func != (_ lhs: TextKey, rhs: TextKey) -> Bool {
         return !(lhs == rhs)
     }
     
-    public static func == (_ lhs: String, rhs: TextKey) -> Bool {
+    internal static func == (_ lhs: String, rhs: TextKey) -> Bool {
         return (lhs == rhs.value)
     }
     
-    public static func == (_ lhs: TextKey, rhs: String) -> Bool {
+    internal static func == (_ lhs: TextKey, rhs: String) -> Bool {
         return (lhs.value == rhs)
     }
     
     // LosslessStringConvertible
-    public init?(_ description: String) {}
+    internal init?(_ description: String) {}
     // CustomStringConvertible
-    public var description: String { return self.value }
+    internal var description: String { return self.value }
 }

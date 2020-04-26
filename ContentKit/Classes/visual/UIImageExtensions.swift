@@ -24,7 +24,7 @@
 
 import Foundation
 
-#if canImport(UIKit)
+#if canImport(UIKit) && canImport(ContentKit)
 import UIKit
 
 extension UIImage: ContentKit.Image {
@@ -34,4 +34,5 @@ extension UIImage: ContentKit.Image {
         return self
     }
 }
-#endif
+
+#endif /* ContentKit */
